@@ -1,4 +1,4 @@
-﻿"%s was successfully added to your shopping cart.","%s був успішно доданий до кошика!"
+"%s was successfully added to your shopping cart.","%s був успішно доданий до кошика!"
 "%s was added to your shopping cart.","Товар <strong>%s</strong> - успішно доданий до кошика!"
 "&laquo; Back to Billing Information","&laquo; Повернутись до інформації про оплату"
 "&laquo; Back to Select Addresses","&laquo; Повернутись до вибору адреси"
@@ -122,6 +122,7 @@
 "Move to Wishlist","Додати до списку бажань"
 "My Account","Мій обліковий запис"
 "My Cart","Мій кошик"
+"Cart","Kошик"
 "My Cart (%s item)","Мій кошик (%s шт.)"
 "My Cart (%s items)","Мій кошик (%s шт.)"
 "My Cart Link","Лінк на мій кошик"
