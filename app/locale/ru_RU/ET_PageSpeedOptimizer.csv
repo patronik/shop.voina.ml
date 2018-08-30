@@ -1,0 +1,67 @@
+"Extension:","Модуль:"
+"<strong>%s</strong> (version %s)","<strong>%s</strong> (версия %s)"
+"License:","Лицензия:"
+"Short Description:","Краткое описание:"
+"Additional Information:","Дополнительная информация:"
+"Support:","Поддержка:"
+"Advertisement:","Реклама:"
+"You can view the full list of extension features in <a href=""%s"" target=""_blank"">Our Shop</a> or check for known issues on our <a href=""%s"" target=""_blank"">Documentation Website</a>","Полное описание возможностей модуля смотрите в нашем <a href=""%s"" target=""_blank"">магазине</a>.<br>Список известных проблем можно посмотреть в <a href=""%s"" target=""_blank"">документации</a>"
+"You can hire our team to customize the extension. Simply use the issue tracking system or e-mail us to sales@etwebsolutions.com<br><br>Don't forget to check out our websites: <a href=""%s"" target=""_blank"">Services</a> and <a href=""%s"" target=""_blank"">Ready Extensions</a>","Вы можете нанять нашу команду для любых работ по модификации модуля. Для этого используйте систему поддержки или напишите на по адресу sales@etwebsolutions.com<br><br>Не забудьте также посетить наши сайты: Magento <a href=""%s"" target=""_blank"">Услуги</a> и <a href=""%s"" target=""_blank"">Модули</a>"
+"Extension support is available via <a href=""%s"" target=""_blank"">issue tracking system</a>.<br><br>Please, report all bugs and feature requests that are related to this extension.<br><br>If, by some reason, you cannot submit a question, bug report, or feature request to our ticket system, you can write us an email to support@etwebsolutions.com","Поддержка модуля осуществляется через <a href=""%s"" target=""_blank"">систему отслеживания заданий</a>.<br><br>Пожалуйста, сообщайте нам о найденных ошибках и о своих пожеланиях в рамках этого модуля.<br><br>Если по каким-либо причинам вы не можете размеситить вопрос/сообщение об ошибке/пожелание в списке задач, то можете написать нам по адресу support@etwebsolutions.com.">If by some reason you can not submit a question, bug report or feature request to our ticket system, you can write us an email - support@etwebsolutions.com.","Поддержка модуля осуществляется через <a href=""%s"" target=""_blank"">систему отслеживания заданий</a>.<br>Для создания задачи будет необходимо зарегистрироваться. Для просмотра информации регистрация не требуется.<br><br>Пожалуйста, сообщайте нам о найденных ошибках и о своих пожеланиях в рамках этого модуля.<br><br>Если по каким-либо причинам вы не можете размеситить вопрос/сообщение об ошибке/пожелание в списке задач, то можете написать нам по адресу support@etwebsolutions.com."
+
+"CSS and JS File Version Control","Контроль версий CSS и JS"
+"Add timestamp to CSS and JS files","Добавлять временные метки к файлам CSS и JS"
+"Enables timestamp adding to CSS and JS files. This way the browser will always load the newer file versions","Включает добавление временных меток к CSS и JS файлам. Таким образом, при их обновлении, браузер будет подгружать последние версии этих файлов"
+"Render blocking content options","Блокирование верхней части страницы"
+"Move JS to footer","Переместить JS в футер"
+"Moves JS to the page footer, this will minimize above-the-fold content loading","Перемещает JS в футер, уменьшая время загрузки верхней части страницы"
+"Ignore JS move","Не перемещать эти JS-файлы в футер"
+"Images Optimization Settings","Настройки оптимизации изображений"
+
+"An instruction about image optimization is available on the <a href='http://doc.etwebsolutions.com/en/instruction/et-page-speed-optimizer/image-optimization' target='_blank'>documentation site</a>.","Инструкция по оптимизации изображений доступна на <a href='http://doc.etwebsolutions.com/ru/instruction/et-page-speed-optimizer/image-optimization' target='_blank'>сайте документации</a>."
+
+"If Yes, after creating a cached image (category & product pages), it will be optimized automatically. Please make sure that the directory is writable!","Если включить, кэш изображения (категорий и товаров) будет автоматически оптимизирован. Убедитесь, что разрешена запись в директорию!"
+"Backup Images","Резервное копирование некэшируемых изображений"
+"Full path for backup images","Полный путь для резервного копирования"
+"Before optimization, all images will be saved in the specified path (needed for console optimization.)","Все изображения сохранятся в указанную директорию перед оптимизацией через консоль"
+"Optimization Parameters","Параметры оптимизации"
+
+"jpeg Optimisation settings","Настройки оптимизации jpeg"
+
+"using library 'jpegtran', default option is: '-copy none -optimize -outfile'","Параметры оптимизации изображений библиотекой jpegtran. Рекомендуется использовать параметры по умолчанию: -copy none -optimize -outfile"
+
+"png Optimisation settings","Настройки оптимизации png"
+
+"using library 'optipng' default option is: '-nb -nc -np -strip all'","Параметры оптимизации изображений библиотекой optipng. Рекомендуется использовать параметры по умолчанию: -nb -nc -np -strip all"
+"Enabled","Включено"
+
+"JS, CSS Minification logging","Логирование сжатия JS и CSS"
+"If Enabled - technical information (js & css minification) is recorded into a log file /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_jscss.log","Включает запись технической информации (сжатие js и css) в лог-файл /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_jscss.log"
+
+"Console optimization logging","Логирование оптимизации через консоль"
+"If Enabled - technical information (image optimization) is recorded into a log file /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_shell.log","Включает запись технической информации (оптимизации изображений через консоль) в лог-файл /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_shell.log"
+
+"Logging for cached images optimization","Логирование оптимизации кэшируемых изображений"
+"If Enabled - technical information (image optimization) is recorded into a log file /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_images.log","Включает запись технической информации (оптимизации кэшируемых изображений) в лог-файл /var/log/et_pagespeedoptimizer/{date}-et_pagespeedoptimizer_images.log"
+
+"Page Speed Optimizer Settings","Настройки Page Speed Optimizer"
+"JS Minification","Сжатие JS"
+"Enables JS compression","Включает сжатие JS"
+"Enables CSS compression","Включает сжатие CSS"
+"Debug Settings","Настройки отладки"
+"Catalog Product Image Cache Optimization","Оптимизация кэша изображений товаров"
+"Page Speed Optimizer Information","Информация о Page Speed Optimizer"
+
+"jpeg Optimization command","Настройки оптимизации JPEG"
+"png Optimization command","Настройки оптимизации PNG"
+"Optimization Library Status","Статус оптимизационных библиотек"
+"jpegtran library path","Путь к библиотеке JPEGtran"
+"optipng library path","Путь к библиотеке OptiPNG"
+
+"jpeg library","Библиотека JPEG"
+"jpegoptim library path","Путь к библиотеке JPEGoptim"
+"Library from section 'JPEG optimization command' not supported","Библиотека из раздела 'Команда оптимизации JPEG' не поддерживается"
+
+"Algorithm","Алгоритм оптимизации"
+"Instantly","Мгновенный"
+"Scheduled","Запланированный"

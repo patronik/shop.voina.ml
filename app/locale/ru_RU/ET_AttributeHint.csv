@@ -1,0 +1,87 @@
+"Extension:","Модуль:"
+"<strong>%s</strong> (version %s)","<strong>%s</strong> (версия %s)"
+"License:","Лицензия:"
+"Short Description:","Краткое описание:"
+"Documentation:","Документация:"
+"Support:","Поддержка:"
+"Advertisement:","Реклама:"
+"You can see description of extension features and answers to the frequently asked questions on <a href=""%s"" target=""_blank"">our website</a>.","Описание возможностей модуля и ответы на часто задаваемые вопросы смотрите на <a href=""%s"" target=""_blank"">нашем сайте</a>."
+"You can hire our team to customize the extension. E-mail us on sales@etwebsolutions.com.<br><br>You can see a list of provided services on <a href=""%s"" target=""_blank"">our website</a>.","Вы можете нанять нашу команду для любых работ по модификации модуля. Пишите на адрес sales@etwebsolutions.com.<br><br>Со списком предоставляемых нами услуг вы можете ознакомиться <a href=""%s"" target=""_blank"">на нашем сайте</a>."
+"Extension support is available through <a href=""%s"" target=""_blank"">issue tracking system</a>.<br>You can see information freely, but you will have to sign up to open a ticket.<br><br>Please, report all bugs and feature requests that are related to this extension.<br><br>If by some reason you can not submit a question, bug report or feature request to our ticket system, you can write us an email - support@etwebsolutions.com.","Поддержка модуля осуществляется через <a href=""%s"" target=""_blank"">систему отслеживания заданий</a>.<br>Для создания задачи будет необходимо зарегистрироваться. Для просмотра информации регистрация не требуется.<br><br>Пожалуйста, сообщайте нам о найденных ошибках и о своих пожеланиях в рамках этого модуля.<br><br>Если по каким-либо причинам вы не можете размеситить вопрос/сообщение об ошибке/пожелание в списке задач, то можете написать нам по адресу support@etwebsolutions.com."
+
+"You can add or change the icon <a href='%s' target='_blank'>here</a>","Тут вы можете изменить иконку по умолчанию для всех атрибутов. Добавлять или изменять иконки вы можете на <a href='%s' target='_blank'>странице управления иконками</a>.<br>Изменить иконку для конкретного атрибута вы можете на форме редактирования атрибута."
+"For internal use only (not displayed to users)","Для внутреннего использования (не показывается пользователям)"
+"Unable to delete Icon! This icon is used in the attributes:","Невозможно удалить иконку. Эта иконка используется в атрибутах:"
+"Name","Название"
+"To remove this icon, edit the attributes and set them to other icons.","Для удаления этой иконки отредактируйте эти атрибуты и установите им другие иконки."
+"Version 1.12.0 <br/> If your theme does not use jQuery library (when you hover over the icon, tooltips are not being displayed), enable jQuery library using this parameter.","Версия: 1.12.0 <br/> Если в вашей теме не используется библиотека jQuery (в этом случае при наведении на иконку не будет показываться подсказка), то подключите библиотеку с помощью этого параметра"
+"If disabled, hints for attributes will be hidden for all site.","Если Нет, то подсказки к атрибутам будут скрыты на всём сайте."
+"Example","Пример"
+"Product View Page","Страница товара"
+"Layered Navigation","Фильтр"
+"Compare Products","Сравнение товаров"
+"Width limit. Large icons will not be able to exceed this value and will be resized during output. Recommendation: upload smaller icons, so that they would not be deformed by browser.","Ограничение по ширине. Большие иконки не смогут превысить данное значение и будут ограничены при выводе. Совет: загружайте иконки меньшего размера, чтобы они не искажались браузером при выводе."
+"Height limit. Large icons will not be able to exceed this value and will be resized during output. Recommendation: upload smaller icons, so that they would not be deformed by browser.","Ограничение по высоте. Большие иконки не смогут превысить данное значение и будут ограничены при выводе. Совет: загружайте иконки меньшего размера, чтобы они не искажались браузером при выводе."
+
+"Default","По умолчанию"
+"If empty, default value will be used","Если ничего не введено, будет использовано значение по умолчанию"
+
+"Thumbnail size limited in module settings. Max width: %s, Max height: %s","Размер выводимой иконки ограничивается размером, указаным в настройках. Максимальная ширина: %s, Максимальная высота: %s"
+"Thumbnail <b style='color: red;'>*</b>","Мини-изображение <b style='color: red;'>*</b>"
+"Title","Заголовок"
+"File Name","Имя файла"
+
+"Icon Height","Высота иконки"
+"Icon Width","Ширина иконки"
+
+"Add New Icon","Добавить иконку"
+"Reset Filter","Сбросить фильтр"
+"Search","Поиск"
+
+"Manage Hint Icon","Управление Иконками"
+
+"Reset","Сбросить"
+"Back","Вернуться"
+"Save Icon","Сохранить иконку"
+"Save and Continue Edit","Сохранить и продолжить редактирование"
+
+"Icon","Иконка"
+"New Icon","Добавить иконку"
+"Edit Icon","Редактирование иконки"
+
+"Edit Icon (ID: %s)","Редактирование иконки (ИД: %s)"
+
+"Icon Information","Информация о иконке"
+"Delete Image","Удалить изображение"
+
+"Attribute Hints Information","Информация о модуле Attribute Hints"
+"Attribute Hints Settings","Настройки модуля Attribute Hints"
+
+"Places to show hints","Где показать подсказки"
+"Enabled","Включено"
+"Hint Design","Дизайн подсказки"
+
+"Hint Position","Положение подсказки"
+"Top","сверху"
+"Left","слева"
+"Right","справа"
+"Bottom","снизу"
+
+"Hint Style","Стиль подсказки"
+"Light","Светлый"
+"Red","Красный"
+"Dark","Темный"
+
+"Hint Radius","Радиус подсказки"
+"Hint Shadow","Тень подсказки"
+"Default Icon","Иконка по умолчанию"
+"Icon max width","Максимальная ширина иконки"
+"Icon max height","Максимальная высота иконки"
+"jQuery library","Библиотека jQuery"
+"Include jQuery library","Подключить библиотеку jQuery"
+"Debug Settings","Параметры отладки"
+"Debugging mode","Режим отладки"
+"If Enabled - technical information records into a log file /var/log/et_attributehint/{date}-et_attributehint.log","Если включено - техническая информация записывается в лог файл /var/log/et_attributehint/{date}-et_attributehint.log"
+"This is a hint preview considering all current settings.","Так будет выглядеть иконка подсказки и всплывающая подсказка при текущих настройках."
+"The settings are not saved. Don't forget to save the settings, if you want to use this hint look on your website.","Настройки не сохранены. Не забудьте сохранить настройки, если вы хотите использовать эту подсказку на своём сайте."
+
