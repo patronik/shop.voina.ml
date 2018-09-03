@@ -146,37 +146,31 @@
             </modules>
         </translate>
         <menu>
-        	<sy translate="title" module="sy_novaposhta">
-	            <title>SY</title>
-	            <sort_order>15</sort_order>
+        	<system>
 	            <children>
 	                <novaposhta translate="title" module="sy_novaposhta">
 	                    <title>Novaposhta</title>
-	                    <sort_order>1</sort_order>
+	                    <sort_order>50</sort_order>
 	                    <children>
 	                    	<cities translate="title" module="sy_novaposhta">
 	                    		<title>Cities</title>
 	                    		<sort_order>1</sort_order>
 	                    		<action>adminhtml/novaposhta_index/cities</action>
 	                    	</cities>
-	                    </children>
-                        <children>
                             <streets translate="title" module="sy_novaposhta">
                                 <title>Streets</title>
                                 <sort_order>2</sort_order>
                                 <action>adminhtml/novaposhta_index/streets</action>
                             </streets>
-                        </children>
-	                    <children>
-	                    	<warehouses translate="title" module="sy_novaposhta">
-	                    		<title>Warehouses</title>
-	                    		<sort_order>3</sort_order>
-	                    		<action>adminhtml/novaposhta_index/warehouses</action>
-	                    	</warehouses>
+                            <warehouses translate="title" module="sy_novaposhta">
+                                <title>Warehouses</title>
+                                <sort_order>3</sort_order>
+                                <action>adminhtml/novaposhta_index/warehouses</action>
+                            </warehouses>
 	                    </children>
 	                </novaposhta>
 	            </children>
-	        </sy>
+	        </system>
         </menu>
     </adminhtml>
     <crontab>

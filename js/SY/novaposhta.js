@@ -1,17 +1,28 @@
-novaposhta_controller = document.location.origin+'/novaposhta/ajax/';
+novaposhta_controller = BASE_URL + 'novaposhta/ajax/';
 novaposhta = {}; // object
 novaposhta.vars = []; // global
 novaposhta.update = {};
 novaposhta.required = {};
 novaposhta.required.disable = {};
 novaposhta.dropdown = {};
-Translator = new Translate('ru_RU');
-Translator.add('Select the city','Выберите город');
-Translator.add('Select the warehouse','Выберите склад');
-Translator.add('Select the street','Выберите улицу');
-Translator.add('House number','Номер дома');
-Translator.add('Flat','Квартира');
-Translator.add('Note','Комментарий');
+if (BASE_URL.indexOf('/ru/') !== -1) {
+    Translator = new Translate('ru_RU');
+    Translator.add('Select the city','Выберите город');
+    Translator.add('Select the warehouse','Выберите склад');
+    Translator.add('Select the street','Выберите улицу');
+    Translator.add('House number','Номер дома');
+    Translator.add('Flat','Квартира');
+    Translator.add('Note','Комментарий');
+
+}  else {
+    Translator = new Translate('uk_UA');
+    Translator.add('Select the city','Виберіть місто');
+    Translator.add('Select the warehouse','Виберіть склад');
+    Translator.add('Select the street','Виберіть вулицю');
+    Translator.add('House number','Номер дому');
+    Translator.add('Flat','Квартира');
+    Translator.add('Note','Коментар');
+}
 novaposhta.helper = {
 	constructor: {
 		createElement : function(container,label,type,attributes,classes,elementStyle,containerStyle){
