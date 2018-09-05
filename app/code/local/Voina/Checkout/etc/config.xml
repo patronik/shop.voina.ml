@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Voina_Checkout>
+            <version>1.0.0</version>
+        </Voina_Checkout>
+    </modules>
+    <global>
+        <blocks>
+            <checkout>
+                <rewrite>
+                    <onepage>Voina_Checkout_Block_Onepage</onepage>
+                </rewrite>
+            </checkout>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <checkout>
+                <args>
+                    <modules>
+                        <Voina_Checkout before="Mage_Checkout">Voina_Checkout</Voina_Checkout>
+                    </modules>
+                </args>
+            </checkout>
+        </routers>
+    </frontend>
+</config>
