@@ -18,54 +18,54 @@ Use vars: {{var var_name}}
 
 <table>
     <thead>
-        <tr>
-            <th>Платёжная транзакция не удалась.</th>
-        </tr>
+            <tr>
+                <th>Платёжная транзакція не удалась.</th>
+            </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>
-                <p>
-                    <b>Причина</b><br />
-                    {{var reason}}
-                </p>
-                <p>
-                    <b>Тип оформления заказа</b><br />
-                    {{var checkoutType}}
-                </p>
-                <p>
-                    <b>Клиент:</b><br />
-                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
-                </p>
-                <p>
-                    <b>Позиции</b><br />
-                    {{var items}}
-                </p>
-                <p>
-                    <b>Итого:</b><br />
-                    {{var total}}
-                </p>
-                <p>
-                    <b>Адрес плательщика:</b><br />
-                    {{var billingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Адрес доставки:</b><br />
-                    {{var shippingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Метод доставки:</b><br />
-                    {{var shippingMethod}}
-                </p>
-                <p>
-                    <b>Метод оплаты:</b><br />
-                    {{var paymentMethod}}
-                </p>
-                <p>
-                    <b>Дата и время:</b><br />
-                    {{var dateAndTime}}
-                </p>
-            </td>
-        </tr>
+        <tr>
+            <td>
+                <p>
+                    <b>Причина</b><br />
+                    {{var reason}}
+                </p>
+                <p>
+                    <b>Тип оформлення замовлення </b><br />
+                    {{var checkoutType}}
+                </p>
+                <p>
+                    <b> Клієнт:</b><br />
+                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+                </p>
+                <p>
+                    <b> Позиції </b><br />
+                    {{var items}}
+                </p>
+                <p>
+                    <b> Всього:</b><br />
+                    {{var total}}
+                </p>
+                <p>
+                    <b> Адреса платника:</b><br />
+                    {{var billingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Адрес доставки:</b><br />
+                    {{var shippingAddress.format('html')}}
+                </p>
+                <p>
+                    <b>Метод доставки:</b><br />
+                    {{var shipping method}}
+                </p>
+                <p>
+                    <b>Спосіб оплати:</b><br />
+                    {{var paymentMethod}}
+                </p>
+                <p>
+                    <b>Дата та час:</b><br />
+                    {{var dateAndTime}}
+                </p>
+            </td>
+        </tr>
     </tbody>
 </table>
