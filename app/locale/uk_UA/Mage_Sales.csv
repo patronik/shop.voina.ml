@@ -517,3 +517,6 @@
 "ZIP/Post Code","Поштовий код"
 "separate by "",""","розділені "","""
 "My Orders","My Orders"
+"Enter the billing last name and email/ZIP as in the order billing address","Вкажіть прізвище та е-мейл/поштовий індекс із адресу вказаному у замовленні"
+"Billing Last Name","Прізвище"
+"Order ID","Номер замовлення"
